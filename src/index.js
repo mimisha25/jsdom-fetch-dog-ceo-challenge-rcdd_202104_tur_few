@@ -8,7 +8,7 @@ console.log('%c HI', 'color: firebrick');
      for(let i=0;i<json.message.length;i++){
      let image = document.createElement("img");
      image.setAttribute("src",json.message[i]);
-     let imgDiv = document.querySelector("#dog-image-container"); 
+     let imgDiv = document.querySelector("#dog-image-container");
      imgDiv.append(image);
 
      }
@@ -44,6 +44,6 @@ console.log('%c HI', 'color: firebrick');
        }
 
 
-    }); 
+    });
 
  });
